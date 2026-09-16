@@ -7726,6 +7726,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://betteredu.kr/geomjeong/news/pocheon-gwaoe.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://betteredu.kr/geomjeong/news/gongju-gwaoe.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://betteredu.kr/geomjeong/news/namhae-gwaoe.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://betteredu.kr/geomjeong/news/ganghwa-gwaoe.html</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
