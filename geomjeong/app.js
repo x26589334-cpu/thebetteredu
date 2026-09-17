@@ -123,7 +123,7 @@
   // 상담 신청 폼 → 구글시트(웹문의: 검정고시 탭)
   var applyForm=document.querySelector('form.apply');
   if(applyForm){
-    var APPLY_URL='https://script.google.com/macros/s/AKfycbxd3w_TsZHqUNvtEFh5pXAiI8s9kyB7YlqiSiKUPUp20mV3p1bZyQTPD4hypoqk69U0/exec';
+    var APPLY_URL='https://script.google.com/macros/s/AKfycbznAb0ZOODlNp-ckR5fvkqtVQijwuJ9Gl0G4KxDrfp-K7zM4fcfMMp5qDhAbwNkvYQG/exec'; // 2026-09-18 전용 스크립트가 죽어 허브(sheet=검정고시)로 전환
     applyForm.addEventListener('submit',function(ev){
       ev.preventDefault();
       var btn=applyForm.querySelector('.btn-primary');
@@ -137,6 +137,7 @@
       body.append('문의내용',v('ms'));
       body.append('신청페이지',location.pathname||'/');
       body.append('_form','검정고시');
+      body.append('sheet','검정고시');
       fetch(APPLY_URL,{method:'POST',mode:'no-cors',body:body}).then(function(){
         btn.setAttribute('data-done','1'); btn.disabled=false; btn.textContent='신청이 접수됐어요 ✓';
         applyForm.reset();
