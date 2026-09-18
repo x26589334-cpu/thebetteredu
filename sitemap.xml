@@ -7768,6 +7768,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://betteredu.kr/geomjeong/news/gochang-gwaoe.html</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://betteredu.kr/geomjeong/news/yeonsu-gwaoe.html</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://betteredu.kr/geomjeong/news/dalseo-gwaoe.html</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://betteredu.kr/geomjeong/news/taebaek-gwaoe.html</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
