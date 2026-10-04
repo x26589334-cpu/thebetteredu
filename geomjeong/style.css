@@ -405,3 +405,6 @@ header.scrolled .nav-toggle{border-color:var(--line-strong);color:var(--text)}
 .article .hero-photo figcaption a{color:inherit;text-decoration:underline}
 /* 카드 썸네일에 실사진이 들어간 경우 — 그라데이션·일러스트 위를 덮음 */
 .ncard .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2}
+
+/* 관련 검색어 한 줄 (지역·학교 글 본문 끝) */
+.article .body .kw-run{margin-top:1.6rem;font-size:.86rem;color:var(--muted);word-break:keep-all}
